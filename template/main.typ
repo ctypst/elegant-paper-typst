@@ -1,4 +1,4 @@
-#import "../lib.typ": *
+#import "@preview/elegant-paper:0.1.0": *
 
 #show: elegant-paper.with(
   title: (
