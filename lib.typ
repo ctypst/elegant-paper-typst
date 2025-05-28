@@ -108,7 +108,7 @@
     keywords: ()
   ),
   font: (
-    font-size: 11pt
+    font-size: 10pt
   ),
   paper: "a4",
   enable-outline: false
