@@ -1,5 +1,5 @@
 [package]
-name = "elegant-paper-typst"
+name = "elegant-paper"
 version = "0.1.0"
 entrypoint = "lib.typ"
 authors = ["Xyber Nova <xyber-nova@outlook.com>"]
