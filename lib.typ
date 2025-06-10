@@ -135,12 +135,12 @@
       }
 
       make-title(
-        title: title.title,
-        authors: title.authors,
-        abstract: title.abstract,
-        keywords: title.keywords
+          title: title.at("title", default: ""),
+          authors: title.at("authors", default: ()),
+          abstract: title.at("abstract", default: ()),
+          keywords: title.at("keywords", default: ()),
       )
-
+      
       if enable-outline {
         show outline.entry: it => {
           set text(fill: color.rgb(128, 0, 0))
